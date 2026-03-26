@@ -607,6 +607,7 @@ export default function Index() {
                 { icon: "MapPin", text: "Челябинск, ул. Елькина, 79", href: null },
                 { icon: "Clock", text: "Пн–Пт: 10:00–20:00, Сб: 10:00–17:00", href: null },
                 { icon: "ExternalLink", text: "ВКонтакте: di_familypsy", href: "https://vk.com/di_familypsy" },
+                { icon: "Map", text: "Мы на 2ГИС", href: "https://2gis.ru/chelyabinsk/search/дифес/firm/70000001087762120/61.399054%2C55.149804?m=61.402709%2C55.158116%2F10.85" },
               ].map((item, i) => (
                 <div key={i} style={{ display: "flex", alignItems: "center", gap: 14 }}>
                   <div
