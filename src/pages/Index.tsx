@@ -608,10 +608,10 @@ export default function Index() {
 
             <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
               {[
-                { icon: "Phone", text: "+7 (908) 492-71-31" },
-                { icon: "Mail", text: "diana@tubulbaeva.ru" },
-                { icon: "MapPin", text: "Челябинск, ул. Елькина, 79" },
-                { icon: "Clock", text: "Пн–Пт: 10:00–20:00, Сб: 10:00–17:00" },
+                { icon: "Phone", text: "+7 (908) 492-71-31", href: "tel:+79084927131" },
+                { icon: "MapPin", text: "Челябинск, ул. Елькина, 79", href: null },
+                { icon: "Clock", text: "Пн–Пт: 10:00–20:00, Сб: 10:00–17:00", href: null },
+                { icon: "ExternalLink", text: "ВКонтакте: di_familypsy", href: "https://vk.com/di_familypsy" },
               ].map((item, i) => (
                 <div key={i} style={{ display: "flex", alignItems: "center", gap: 14 }}>
                   <div
@@ -628,7 +628,13 @@ export default function Index() {
                   >
                     <Icon name={item.icon} size={17} />
                   </div>
-                  <span style={{ color: "var(--navy)", fontSize: 15 }}>{item.text}</span>
+                  {item.href ? (
+                    <a href={item.href} target="_blank" rel="noopener noreferrer" style={{ color: "var(--navy)", fontSize: 15, textDecoration: "none", borderBottom: "1px solid var(--gold)" }}>
+                      {item.text}
+                    </a>
+                  ) : (
+                    <span style={{ color: "var(--navy)", fontSize: 15 }}>{item.text}</span>
+                  )}
                 </div>
               ))}
             </div>
