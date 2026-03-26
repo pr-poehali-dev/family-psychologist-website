@@ -44,7 +44,7 @@ const services = [
 ];
 
 const credentials = [
-  { value: "12+", label: "лет практики" },
+  { value: "16+", label: "лет практики" },
   { value: "800+", label: "клиентов" },
   { value: "3", label: "образования" },
   { value: "КПТ", label: "основной метод" },
@@ -377,15 +377,15 @@ export default function Index() {
               className="font-display"
               style={{ fontSize: "clamp(30px, 4vw, 50px)", fontWeight: 400, lineHeight: 1.15, margin: "0 0 24px 0", color: "var(--navy)" }}
             >
-              Более 12 лет
+              Более 16 лет
               <br />
               <em style={{ color: "var(--gold)", fontStyle: "italic" }}>практики</em>
             </h2>
             <div className="divider-gold" />
             <p style={{ color: "var(--text-muted)", lineHeight: 1.85, fontSize: 16, marginBottom: 20 }}>
               Я работаю с парами и семьями, помогая им преодолевать кризисы и выстраивать
-              здоровые отношения. Мой подход основан на когнитивно-поведенческой терапии
-              и системном семейном подходе — методах с доказанной эффективностью.
+              здоровые отношения. За 16 лет практики мой подход стал основан на когнитивно-поведенческой
+              терапии и системном семейном подходе — методах с доказанной эффективностью.
             </p>
             <p style={{ color: "var(--text-muted)", lineHeight: 1.85, fontSize: 16, marginBottom: 36 }}>
               За годы практики я помогла более 800 клиентам найти путь к себе и
@@ -610,7 +610,7 @@ export default function Index() {
               {[
                 { icon: "Phone", text: "+7 (908) 492-71-31" },
                 { icon: "Mail", text: "diana@tubulbaeva.ru" },
-                { icon: "MapPin", text: "Челябинск" },
+                { icon: "MapPin", text: "Челябинск, ул. Елькина, 79" },
                 { icon: "Clock", text: "Пн–Пт: 10:00–20:00, Сб: 10:00–17:00" },
               ].map((item, i) => (
                 <div key={i} style={{ display: "flex", alignItems: "center", gap: 14 }}>
