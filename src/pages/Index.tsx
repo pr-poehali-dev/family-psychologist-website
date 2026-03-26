@@ -424,7 +424,7 @@ export default function Index() {
                 {
                   year: "ИИСТ",
                   title: "Институт интегративной семейной терапии",
-                  desc: "Системная семейная психотерапия",
+                  desc: "Супружеский терапевт",
                 },
               ].map((edu, i) => (
                 <div key={i} style={{ display: "flex", gap: 20 }}>
