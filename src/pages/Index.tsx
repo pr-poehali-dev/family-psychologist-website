@@ -46,7 +46,7 @@ const services = [
 const credentials = [
   { value: "16+", label: "лет практики" },
   { value: "800+", label: "клиентов" },
-  { value: "1", label: "образование" },
+  { value: "2", label: "образования" },
   { value: "СТ", label: "системный терапевт" },
 ];
 
@@ -420,6 +420,11 @@ export default function Index() {
                   year: "ЧГПУ",
                   title: "Челябинский государственный педагогический университет",
                   desc: "Специальность «Психолог»",
+                },
+                {
+                  year: "ИИСТ",
+                  title: "Институт интегративной семейной терапии",
+                  desc: "Системная семейная психотерапия",
                 },
               ].map((edu, i) => (
                 <div key={i} style={{ display: "flex", gap: 20 }}>
