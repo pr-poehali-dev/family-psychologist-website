@@ -299,7 +299,7 @@ export default function Index() {
         </div>
 
         <div style={{ maxWidth: 560, position: "relative", zIndex: 1 }}>
-          <span className="section-label fade-up-1">Психолог · Терапевт · Москва</span>
+          <span className="section-label fade-up-1">Психолог · Терапевт · Челябинск</span>
           <h1
             className="font-display fade-up-2"
             style={{
@@ -610,7 +610,7 @@ export default function Index() {
               {[
                 { icon: "Phone", text: "+7 (495) 000-00-00" },
                 { icon: "Mail", text: "diana@tubulbaeva.ru" },
-                { icon: "MapPin", text: "Москва, ул. Примерная, д. 1" },
+                { icon: "MapPin", text: "Челябинск" },
                 { icon: "Clock", text: "Пн–Пт: 10:00–20:00, Сб: 10:00–17:00" },
               ].map((item, i) => (
                 <div key={i} style={{ display: "flex", alignItems: "center", gap: 14 }}>
