@@ -47,7 +47,7 @@ const credentials = [
   { value: "16+", label: "лет практики" },
   { value: "800+", label: "клиентов" },
   { value: "3", label: "образования" },
-  { value: "КПТ", label: "основной метод" },
+  { value: "СТ", label: "системный терапевт" },
 ];
 
 export default function Index() {
