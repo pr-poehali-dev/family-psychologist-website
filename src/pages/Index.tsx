@@ -608,7 +608,7 @@ export default function Index() {
 
             <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
               {[
-                { icon: "Phone", text: "+7 (495) 000-00-00" },
+                { icon: "Phone", text: "+7 (908) 492-71-31" },
                 { icon: "Mail", text: "diana@tubulbaeva.ru" },
                 { icon: "MapPin", text: "Челябинск" },
                 { icon: "Clock", text: "Пн–Пт: 10:00–20:00, Сб: 10:00–17:00" },
